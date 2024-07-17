@@ -1,0 +1,2153 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	max-width: 100%;
+}
+
+.top-banner{
+	width: 100%;
+	height: 15vh;
+	background-color: black;
+	position: fixed;
+	z-index: 1000;
+}
+.logo{
+	float: left;
+	width: 28%;
+	height:15vh;
+}
+.logo-info{
+	float: left;
+	width: 58%;
+	height: 15vh;
+}
+.logo-info h4{
+	color: goldenrod;
+	padding-top: 10%
+
+}
+.logo-info h5{
+	color: goldenrod;
+	padding-top:3%;
+	padding-left: 5%;
+	font-style: italic;
+
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  right:0;
+  z-index: 1000;
+}
+
+.menu-icon {
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.sliding-menu {
+  position: fixed;
+  top: -100%; /* Initially off-screen */
+  left: 0;
+  width: 100%;
+  background-color: black; /* Background color for sliding menu */
+  transition: top 0.3s ease;
+}
+
+.menu {
+  padding: 10px;
+}  
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+  padding-left: 40%;
+}
+
+.menu ul li a {
+  color:goldenrod;
+  text-decoration: none;
+}
+.me-nu{
+	display: none;
+}
+
+.close-icon {
+  float: right;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  padding-top:10%;
+}
+.front-page{
+	width: 100%;
+	height:100vh;
+	background-color: black;
+	background-image:url(turkey.jpg);
+	background-size: cover;
+	background-position:top right;
+	position: relative;
+}
+.front-page-info{
+	position: absolute;
+	width: 100%;
+	top: 83%;
+}
+.front-page-info h4{
+	padding-left: 5%;
+	margin: auto;
+	line-height:30px;
+	color: white;
+	font-weight: bold;
+	font-size:120%;
+}
+.front-page h5{
+	font-size:100%;
+	color: goldenrod;
+	font-style: italic;
+	line-height:30px;
+	padding-left: 20%;
+}
+.explanation{
+	display: none;
+}
+.services{
+	width: 100%;
+	height: 200vh;
+}
+.services hr{
+	margin-top: 5%;
+	width: 50%;
+	height: 2px;
+	background-color: goldenrod;
+	margin-left: 25%;
+}
+.services h2{
+	padding-left:33%;
+	padding-top:3%;
+	color: black;
+}
+.images{
+  top: 10px;
+	width: 100%;
+	height: 200vh;
+	position: relative;
+	background-color:black;
+	margin: auto;
+	overflow: hidden;
+}
+.img-des-1{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.img-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(consultation.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.des-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+
+}
+.des-1 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color: goldenrod;
+}
+.img-des-2{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.img-2{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(visa.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.des-2{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+
+}
+.des-2 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color: goldenrod;
+}
+.img-des-3{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.img-3{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(flight.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.des-3{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+
+}
+.des-3 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color: goldenrod;
+}
+.img-des-4{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.img-4{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(hotel.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.des-4{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+
+}
+.des-4 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color: goldenrod;
+}
+.foreground-content {
+position: absolute;
+width: 100%;
+height: 200vh;
+z-index: 2; /* Higher z-index to be in front of the slider */
+display: block;
+margin-top: 24%;
+}
+.foreground-content h2{
+	color: white;
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.visa{
+	width: 100%;
+	height: 200vh;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+.visa-des-1{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.visa-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(business.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.desc-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+}
+.desc-1 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color:white;
+}
+.visa-des-2{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.visa-2{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(tourist.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.desc-2{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+}
+.desc-2 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color:white;
+}
+.visa-des-3{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.visa-3{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(student.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.desc-3{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+}
+.desc-3 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color:white;
+}
+.visa-des-4{
+	width: 98%;
+	height: 50vh;
+	margin: auto;
+}
+.visa-4{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 40vh;
+	background-image: url(emergency.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.desc-4{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height:10vh;
+}
+.desc-4 h4{
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	color:white;
+}
+.btn{
+	width:100%;
+	height: 10vh;
+	background-color: white;
+}
+.btn button{
+	margin-top: 5%;
+	margin-left: 40%;
+	padding: 2px 10px;
+	background-color: goldenrod;
+	color: black;
+	border-width: 2px;
+	border-color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.slider {
+position: relative;
+width: 100%;
+height:210vh;
+background-color: black;
+margin-top: 15%;
+overflow: hidden;
+z-index: 1; /* Lower z-index to be behind the foreground content */
+}
+.slide {
+position: absolute;
+width: 100%;
+height: 100%;
+animation: slide-animation 15s infinite;
+}
+.background-div {
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.background-div::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+}
+@keyframes slide-animation {
+0% { transform: translateX(100%); }
+20% { transform: translateX(0); }
+33% { transform: translateX(0); }
+53% { transform: translateX(-100%); }
+100% { transform: translateX(-100%); }
+}
+.slide:nth-child(1) {
+animation-delay: 0s;
+}
+.slide:nth-child(2) {
+animation-delay: 5s;
+}
+.slide:nth-child(3) {
+animation-delay: 10s;
+}
+.location{
+	background: linear-gradient(rgba(0, 0, 0, 0.5),black), url(cianda.png);
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	height: 40vh;
+	background-color: indianred;
+	margin-top: 5%;
+}
+a{
+	text-decoration: none;
+}
+.location h4{
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	padding-left: 4%;
+	animation: flash 3s infinite;
+	padding-top: 5%;
+}
+.location h3{
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+	padding-top: 20%;
+	padding-left:45%;
+	animation: flash 3s infinite;
+}
+.location h6{
+	font-size:15px;
+	color: white;
+	text-decoration: none;
+	padding-top: 3%;
+	padding-left:15%;
+	animation: flash 3s infinite;
+}
+
+
+  @keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+ .choose{
+ 	width: 100%;
+ 	height: 112vh;
+ 	background-color: black;
+ }
+ .choose h1{
+ 	color: white;
+ 	font-weight: bold;
+ 	padding-left: 10%;
+ 	padding-top: 5%;
+ }
+ .choose p{
+ 	color: goldenrod;
+ 	font-size: 17px;
+ 	padding-left: 7%;
+ 	padding-top: 3%;
+ 	line-height: 145%;
+ 	padding-right:;
+ }
+ .choose h4{
+ 	color: white;
+ 	padding-left: 35%;
+ 	font-size: 30px;
+ 	padding-top: 10%;
+ }
+ .choose img{
+ 	width: 20%;
+ 	height: auto;
+  padding-left: 36%;
+ }
+ .head-location hr{
+	margin-top: 5%;
+	width: 50%;
+	height: 2px;
+	background-color: goldenrod;
+	margin-left: 25%;
+}
+.head-location h2{
+	padding-left:33%;
+	padding-top:3%;
+	color: black;
+}
+ .book{
+ 	width: 100%;
+ 	height: 20vh;
+ 	background-color: white;
+ }
+ .book button{
+ 	margin-top: 15%;
+ 	margin-left: 17%;
+ 	padding:7px 40px;
+ 	color: black;
+ 	font-weight: bold;
+ 	font-size: 18px;
+ 	background-color: goldenrod;
+ 	border-radius: 12px;
+ }
+.bottom{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+}
+.bottom a{
+	color: goldenrod;
+}
+
+.logo-bottom{
+	float: left;
+	width: 30%;
+	height:15vh;
+}
+.logo-bottom img{
+	width: 100%;
+	height: auto;
+}
+.logo-info-bottom{
+	float: left;
+	width: 70%;
+	height: 15vh;
+}
+.logo-info-bottom h4{
+	color: goldenrod;
+	padding-left: 5%;
+	padding-top: 8%;
+
+}
+.logo-info-bottom h5{
+	color: goldenrod;
+	padding-top:3%;
+	padding-left: 15%;
+	font-style: italic;
+
+}
+.bottom{
+   float: none;
+}
+.bottom-services h3{
+	color: white;
+	padding-left: 5%;
+	font-size: 25px;
+}
+.bottom-services ul li{
+	color: goldenrod;
+	font-size: 15px;
+	padding-left: 8%;
+	letter-spacing: normal;
+	padding-top: 2%;
+}
+.bottom-countries h3{
+	color: white;
+	padding-left: 5%;
+	font-size: 25px;
+}
+.bottom-countries ul li{
+	color: goldenrod;
+	font-size: 15px;
+	padding-left: 8%;
+	letter-spacing: normal;
+	padding-top: 1%;
+}
+.about h3{
+	color: white;
+	padding-left: 5%;
+	font-size: 25px;
+}
+.about ul li{
+	color: white;
+	font-size: 15px;
+	padding-left: 8%;
+	letter-spacing: normal;
+	padding-top: 2%;
+}
+.bottom-contact h3{
+	color: white;
+	padding-left: 5%;
+	font-size: 25px;
+}
+.bottom-contact ul li{
+	color: goldenrod;
+	font-size: 15px;
+	padding-left: 8%;
+	letter-spacing: normal;
+	padding-top: 2%;
+}
+.visit p{
+   color: goldenrod;
+   padding-left: 4%;
+   font-size: 18px;
+   padding-top: 7%;
+}
+
+.conta-des-1{
+	width: 100%;
+	height: 50vh;
+	margin: auto;
+}
+.conta-img-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 50vh;
+	background-image: url(london.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.conta-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	top: 79%;
+	opacity: 0.7;
+	height:10vh;
+  position: relative;
+  background-color: black;
+}
+.conta-1 h2{
+	position: absolute;
+	margin: auto;
+	top: 20%;
+	font-size:22px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.location-div{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+}
+.loc-below{
+	width: 85%;
+	height: 40vh;
+	border-color: black;
+	margin-top:9%;
+	margin-left:7%;
+	border-radius: 8px;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.9);
+}
+.loc-below h2{
+	padding-left: 15%;
+	padding-top: 5%;
+	font-size: 35px;
+}
+.loc-below p{
+	font-size: 25px;
+	padding-left: 7%;
+	padding-top: 5%;
+	line-height: 35px;
+	padding-right: 5%;
+}
+.conta-below{
+	width: 85%;
+	height: 40vh;
+	border-color: black;
+	margin-top:9%;
+	margin-left:7%;
+	border-radius: 8px;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.9);
+}
+.conta-below h2{
+  padding-left: 15%;
+	padding-top: 5%;
+	font-size: 35px;
+}
+.conta-below p{
+	font-size: 25px;
+	padding-left: 7%;
+	padding-top: 5%;
+	line-height: 45px;
+	padding-right: 5%;
+}
+.book-conta button{
+	margin-top:7%;
+ 	margin-left: 17%;
+ 	padding:7px 40px;
+ 	color: black;
+ 	font-weight: bold;
+ 	font-size: 18px;
+ 	background-color: goldenrod;
+ 	border-radius: 12px;
+}
+.top-about{
+	width: 100%;
+	height: 250vh;
+}
+.about-des-1{
+	width: 100%;
+	height: 50vh;
+	margin: auto;
+}
+.about-img-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 50vh;
+	background-image: url(visa-2.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.abt-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	top: 74%;
+	opacity: 0.9;
+	height:10vh;
+  position: relative;
+  background-color: #1a3a6e;
+}
+.abt-1 h2{
+	position: absolute;
+	margin: auto;
+	top: 20%;
+	font-size:22px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.about-us{
+	width: 100%;
+	height: 50vh;
+	margin-top: 2%;
+}
+.about-us hr{
+	width:80%;
+	margin-top: 10%;
+	margin-left:7%;
+	height:5px;
+	background-color: black;
+}
+.about-us h1{
+    font-size: 80px;
+    padding-left:8%;
+    padding-top: 12%;
+    font-weight: bold;
+    color:#1a3a6e;
+}
+
+.vision-about{
+	width: 100%;
+	height: 150vh;
+	background-color:#e9edf5;
+	margin-top:1%;
+}
+.vision-about img{
+      width: 40%;
+      height: auto;
+      padding-left: 25%;
+      padding-top:2%;
+}
+.vision-about h2{
+	font-size: 45px;
+	padding-left: 28%;
+	padding-top: 5%;
+	color: #1a3a6e;
+	font-family:arial;
+}
+.vision-about p{
+	padding-left: 4%;
+	font-size: 20px;
+	color: #1a3a6e;
+	line-height: 35px;
+}
+.call-us{
+	width: 100%;
+	height: 50vh;
+	margin-top: 2%;
+}
+.call-us hr{
+	width:80%;
+	margin-top: 10%;
+	margin-left:7%;
+	height:5px;
+	background-color: black;
+}
+.call-us h1{
+	 font-size: 80px;
+    padding-left:8%;
+    padding-top: 12%;
+    font-weight: bold;
+    color:#1a3a6e;
+}
+.serv-window{
+	width: 100%;
+	height: 360vh;
+	background-color: #a3bfcf;
+}
+.me-nu{
+	display:block;
+}
+.serv-des-1{
+	width: 100%;
+	height: 50vh;
+	margin: auto;
+	margin-bottom: 15%;
+}
+.serv-img-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 50vh;
+	background-image: url(plane5.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.serv-1{
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	top: 69%;
+	opacity: 0.6;
+	height:15vh;
+  position: relative;
+  background-color:black;
+}
+.serv-1 h2{
+	position: absolute;
+	margin: auto;
+	top: 20%;
+	font-size:19px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}.free-application{
+	width: 98%;
+	height: 70vh;
+	margin: auto;
+	background-color: black;
+	border-radius: 15%;
+	margin-bottom: 10%;
+}
+.free-application-head{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.free-application-head img{
+	width: 12%;
+	padding-top:12%;
+	padding-left: 5%;
+	float: left;
+}
+.free-application-head h3{
+	color: goldenrod;
+	float: left;
+	padding-top: 14%;
+	padding-left: 5%;
+	letter-spacing: 2px;
+	font-size: 21px;
+}
+.free-application-p{
+	width: 100%;
+  height: 50vh;
+  margin: auto;
+  border-width: 65px;
+  border-color: black;
+}
+.free-application-p p{
+	font-weight: bold;
+	color: white;
+	padding-top: 8%;
+	padding-left: 5%;
+	font-size: 20px;
+	line-height: 45px;
+	letter-spacing: 2px;
+}
+.free-application-bot{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.free-application-bot button{
+	margin: 2% 35%;
+	font-size: 27px;
+	padding: 2px 10px;
+	font-weight: bold;
+	background-color: black;
+	color: goldenrod;
+	border-radius: 15px;
+	border-color: white;
+	border-width: 15%;
+}
+.visa-application{
+	width: 98%;
+	height: 70vh;
+	margin: auto;
+	background-color:goldenrod;
+	border-radius: 15%;
+	margin-bottom: 10%;
+}
+.visa-application-head{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.visa-application-head img{
+	width: 12%;
+	padding-top:12%;
+	padding-left: 5%;
+	float: left;
+}
+.visa-application-head h3{
+	color:black;
+	float: left;
+	padding-top: 14%;
+	padding-left: 5%;
+	letter-spacing: 2px;
+	font-size: 23px;
+}
+.visa-application-p{
+	width: 100%;
+  height: 50vh;
+  margin: auto;
+  border-width: 65px;
+  border-color: black;
+}
+.visa-application-p p{
+	font-weight: bold;
+	color: navy;
+	padding-top: 8%;
+	padding-left: 5%;
+	font-size: 20px;
+	line-height: 45px;
+	letter-spacing: 2px;
+}
+.visa-application-bot{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.visa-application-bot button{
+	margin: 2% 35%;
+	font-size: 27px;
+	padding: 2px 10px;
+	font-weight: bold;
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+	border-color: white;
+	border-width: 15%;
+}
+.flight-application{
+	width: 98%;
+	height: 70vh;
+	margin: auto;
+	background-color: black;
+	border-radius: 15%;
+	margin-bottom: 10%;
+}
+.flight-application-head{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.flight-application-head img{
+	width: 12%;
+	padding-top:12%;
+	padding-left: 5%;
+	float: left;
+}
+.flight-application-head h3{
+	color: white;
+	float: left;
+	padding-top: 14%;
+	padding-left: 5%;
+	letter-spacing: 2px;
+	font-size: 23px;
+}
+.flight-application-p{
+	width: 100%;
+  height: 50vh;
+  margin: auto;
+  border-width: 65px;
+  border-color: black;
+}
+.flight-application-p p{
+	font-weight: bold;
+	color: goldenrod;
+	padding-top: 8%;
+	padding-left: 5%;
+	font-size: 20px;
+	line-height: 45px;
+	letter-spacing: 2px;
+}
+.flight-application-bot{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.flight-application-bot button{
+	margin: 2% 35%;
+	font-size: 27px;
+	padding: 2px 10px;
+	font-weight: bold;
+	background-color: black;
+	color: goldenrod;
+	border-radius: 15px;
+	border-color: white;
+	border-width: 15%;
+}
+.hotel-application{
+	width: 98%;
+	height: 70vh;
+	margin: auto;
+	background-color: navy;
+	border-radius: 15%;
+	margin-bottom: 10%;
+}
+.hotel-application-head{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.hotel-application-head img{
+	width: 12%;
+	padding-top:12%;
+	padding-left: 5%;
+	float: left;
+}
+.hotel-application-head h3{
+	color: goldenrod;
+	float: left;
+	padding-top: 14%;
+	padding-left: 5%;
+	letter-spacing: 2px;
+	font-size: 21px;
+}
+.hotel-application-p{
+	width: 100%;
+  height: 50vh;
+  margin: auto;
+  border-width: 65px;
+  border-color: black;
+}
+.hotel-application-p p{
+	font-weight: bold;
+	color: white;
+	padding-top: 8%;
+	padding-left: 5%;
+	font-size: 20px;
+	line-height: 45px;
+	letter-spacing: 2px;
+}
+.hotel-application-bot{
+	width: 100%;
+  height: 10vh;
+  margin: auto;
+}
+.hotel-application-bot button{
+	margin: 2% 35%;
+	font-size: 27px;
+	padding: 2px 10px;
+	font-weight: bold;
+	background-color: goldenrod;
+	color: white;
+	border-radius: 15px;
+	border-color: white;
+	border-width: 15%;
+}
+
+@media screen and (min-width:200px) and (max-width:1024px){
+ .me-nu{
+ 	display: none;
+ }
+ .book-serv{
+ 	display: none;
+ }
+}
+  
+@media screen and (max-width:320px){
+   .serv-1 h2{
+   font-size: 14px;
+   line-height: 25px;
+   }
+   .free-application-head h3{
+   	font-size: 18px;
+   }
+   .free-application-p p{
+   	font-size: 15px;
+   }
+   .free-application-bot button{
+   	font-size: 19px;
+   }
+   .visa-application-head h3{
+   	font-size: 18px;
+   }
+   .visa-application-p p{
+   	font-size: 15px;
+   }
+   .visa-application-bot button{
+   	font-size: 19px;
+   }
+   .flight-application-head h3{
+   	font-size: 18px;
+   }
+   .flight-application-p p{
+   	font-size: 15px;
+   }
+   .flight-application-bot button{
+   	font-size: 19px;
+   }
+   .hotel-application-head h3{
+   	font-size: 18px;
+   }
+   .hotel-application-p p{
+   	font-size: 15px;
+   }
+   .hotel-application-bot button{
+   	font-size: 19px;
+   }
+	 .choose{
+ 	height: 152vh;
+ }
+ .logo-info h4{
+ 	font-size: 14px;
+ }
+ .front-page-info h4{
+ 	font-size: 15px;
+ }
+ .location h3{
+	font-size: 25px;
+	padding-top: 10%;
+}
+.location h4{
+	text-align: center;
+	font-size: 25px;
+}
+.location h6{
+	padding-left: 14%;
+	font-size: 15px;
+}
+.book{
+	height: 10vh;
+}
+.book button{
+	font-size: 15px;
+	margin-top: 40%;
+	margin-left: 15%;
+}
+ .bottom{
+ 	height: 150vh;
+ 	margin-top: 100%;
+ }
+ .conta-below{
+ 	height: 60vh;
+ }
+ .book-conta button{
+ 	position: absolute;
+ 	margin-top: 30%;
+ 	font-size: 22px;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
+ }
+ .abt-1{
+ 	top: 60%;
+ 	height: 20vh;
+ }
+ .about-us hr{
+ 	margin-left: 10%;
+ }
+ .about-us h1{
+ 	font-size: 37px;
+ 	padding-left: 20%;
+ }
+ .vision-about{
+ 	margin-top:1% ;
+  height: 250vh;
+ }
+ .call-us hr{
+ 	margin-left: 10%;
+ }
+ .call-us h1{
+ 	 font-size: 37px;
+ 	padding-left: 20%;
+ }
+ .loc-below{
+ 	margin-top: 1%;
+ 	height: 50vh;
+ }
+ .conta-below{
+ 	height: 80vh;
+ }
+ .location-div{
+ 	height: 110vh;
+ }
+ .conta-1{
+ 	top: 60%;
+ 	height: 20vh;
+ }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px){
+	.abt-1 h2{
+		font-size: 30px;
+	}
+	.serv-1 h2{
+		font-size: 35px;
+	}
+	.serv-window{
+		height: 370vh;
+	}
+	.free-application-head h3{
+   	font-size: 38px;
+   }
+   .free-application-p p{
+   	font-size: 35px;
+   	line-height: 75px;
+   	padding-top: 15%;
+   }
+   .free-application-bot button{
+   	font-size: 49px;
+   }
+   .visa-application-head h3{
+   	font-size: 38px;
+   }
+   .visa-application-p p{
+    font-size: 35px;
+   	line-height: 75px;
+   	padding-top: 15%;
+   }
+   .visa-application-bot button{
+   	font-size: 49px;
+   }
+   .flight-application-head h3{
+   	font-size: 38px;
+   }
+   .flight-application-p p{
+   	font-size: 35px;
+   	line-height: 75px;
+   	padding-top: 15%;
+   }
+   .flight-application-bot button{
+   	font-size: 49px;
+   }
+   .hotel-application-head h3{
+   	font-size: 38px;
+   }
+   .hotel-application-p p{
+   	font-size: 35px;
+   	line-height: 75px;
+   	padding-top: 15%;
+   }
+   .hotel-application-bot button{
+   	font-size: 49px;
+   }
+
+.about-us hr{
+	 	width: 40%;
+ 	margin-left: 30%;
+ }
+ .about-us h1{
+ 	font-size: 57px;
+ 	padding-left: 30%;
+ }
+ .about-us{
+ 	height: 30vh;
+ }
+ .vision-about{
+ 	height: 280vh;
+ }
+ .vision-about img{
+      width: 20%;
+      height: auto;
+      padding-left: 40%;
+      padding-top:0;
+}
+.vision-about h2{
+	font-size: 55px;
+	padding-left: 40%;
+	padding-top: 15%;
+}
+.vision-about p{
+	padding-left: 8%;
+	padding-right: 6%;
+	font-size: 40px;
+	line-height: 75px;
+}
+.call-us{
+	height: 20vh;
+}
+.call-us hr{
+	width: 40%;
+ 	margin-left: 30%;
+}
+.call-us h1{
+	font-size: 57px;
+ 	padding-left: 30%;
+}
+.location-div{
+	height: 140vh;
+}
+.loc-below{
+	height: 55vh;
+}
+.loc-below h2{
+	font-size: 75px;
+}
+.loc-below p{
+	font-size: 50px;
+	line-height: 90px;
+}
+.conta-below{
+		height: 55vh;
+}
+.conta-below h2{
+  font-size: 75px;
+}
+.conta-below p{
+	font-size: 50px;
+	line-height: 90px;
+}
+.book-conta button{
+	font-size: 50px;
+}
+	.logo-info h4{
+		font-size: 30px;
+		padding-left: 10%;
+	}
+	.logo{
+		width: 22%;
+	}
+	.logo-info h4{
+		padding-top: 5%;
+	}
+	.logo-info h5{
+		font-size: 25px;
+		padding-left: 20%;
+	}
+	.menu-icon{
+		padding-top: 50%;
+		font-size: 50px;
+	}
+	.menu ul li {
+  margin-bottom:10px;
+  font-size: 28px;
+}
+.close-icon{
+	font-size: 60px;
+}
+.front-page-info{
+	top: 80%;
+}
+.front-page-info h4{
+	line-height:60px;
+	font-size:240%;
+	padding-left: 5%;
+}
+.front-page h5{
+	font-size:200%;
+	line-height:60px;
+	padding-left: 20%;
+}
+.services h2{
+	font-size: 45px;
+}
+.images{
+	height: 240vh;
+}
+.img-des-1{
+	height: 60vh;
+}
+.img-1{
+	height: 50vh;
+}
+.des-1 h4{
+	font-size: 35px;
+	padding-top: 4%;
+}
+.img-des-2{
+	height: 60vh;
+}
+.img-2{
+	height: 50vh;
+}
+.des-2 h4{
+	font-size: 35px;
+	padding-top: 4%;
+}
+.img-des-3{
+	height: 60vh;
+}
+.img-3{
+	height: 50vh;
+}
+.des-3 h4{
+	font-size: 35px;
+	padding-top: 4%;
+}
+.img-des-4{
+	height: 60vh;
+}
+.img-4{
+	height: 50vh;
+}
+.des-4 h4{
+	font-size: 35px;
+	padding-top: 4%;
+}
+.services{
+	height: 240vh;
+}
+.foreground-content h2{
+	font-size: 45px;
+}
+.visa{
+	height: 240vh;
+}
+.visa-des-1{
+	height: 60vh;
+}
+.visa-1{
+	width: 80%;
+	margin: auto;
+	height: 50vh;
+}
+.desc-1 h4{
+  font-size: 35px;
+}
+.visa-des-2{
+	height: 60vh;
+}
+.visa-2{
+	width: 80%;
+	margin: auto;
+	height: 50vh;
+}
+.desc-2 h4{
+  font-size: 35px;
+}
+.visa-des-3{
+	height: 60vh;
+}
+.visa-3{
+	width: 80%;
+	margin: auto;
+	height: 50vh;
+}
+.desc-3 h4{
+  font-size: 35px;
+}
+.visa-des-4{
+	height: 60vh;
+}
+.visa-4{
+	width: 80%;
+	margin: auto;
+	height: 50vh;
+}
+.desc-4 h4{
+  font-size: 35px;
+}
+.slider{
+	height: 265vh;
+}
+.btn button{
+	font-size: 35px;
+}
+.choose{
+	height: 130vh;
+}
+.choose h1{
+	font-size: 55px;
+	padding-left: 20%;
+}
+.choose h4{
+	font-size: 42px;
+	padding-left: 37%;
+}
+.choose p{
+	font-size: 25px;
+	padding-right: 7%;
+}
+.head-location h2{
+	font-size: 45px;
+	padding-left: 37%;
+}
+.location h3{
+	font-size: 75px;
+	padding-top: 10%;
+}
+.location h4{
+	text-align: center;
+	font-size: 45px;
+}
+.location h6{
+	padding-left: 24%;
+	font-size: 25px;
+}
+.bottom{
+	margin-top:0;
+	height: 150vh;
+}
+.logo-bottom img{
+	width: 80%;
+	padding-left: 20%;
+}
+.logo-info-bottom h4{
+	font-size: 30px;
+	padding-top: 5%;
+}
+.logo-info-bottom h5{
+	font-size:22px;
+}
+.bottom-services h3{
+  font-size: 35px;
+}
+.bottom-services ul li{
+	font-size: 22px;
+	line-height: 50px;
+}
+.bottom-countries h3{
+  font-size: 35px;
+}
+.bottom-countries ul li{
+	font-size: 22px;
+	line-height: 40px;
+}
+.about h3{
+  font-size: 35px;
+}
+.about ul li{
+	font-size: 22px;
+	line-height: 50px;
+}
+.bottom-contact h3{
+  font-size: 35px;
+}
+.bottom-contact ul li{
+	font-size: 22px;
+	line-height: 50px;
+}
+.visit p{
+	font-size: 35px;
+	line-height: 70px;
+}
+.book button{
+	font-size: 35px;
+	margin-top: 10%;
+	margin-left: 25%;
+}
+.background-div::before{
+	background: rgba(0, 0, 0, 0.5);
+}
+}
+@media screen and (min-width:1025px) and (max-width:2560px) {
+
+.top-banner{
+		height: 12vh;
+		z-index: 9999;
+	}
+	.logo{
+		width: 10%;
+		height: 12vh;
+	}
+.logo img{
+	width:70%;
+	padding-left: 10%;
+	justify-content: center;
+	align-items: center;
+}
+.logo-info{
+	width: 30%;
+}
+.logo-info h4{
+	padding-top: 3%;
+	padding-left: 3%;
+	font-size: 22px;
+	font-weight: lighter;
+}
+.logo-info h5{
+	line-height:0;
+	padding-top: 2%;
+	font-size: 18px;
+	line-height: 20px;
+	padding-left: 10%;
+	font-weight: lighter;
+}
+.menu-icon{
+	display: none  ;
+}
+.menu-container{
+	display: none;
+}
+
+.me-nu{
+	width:60%;
+	height: 12vh;
+	float: left;
+	z-index: 1000;
+}
+.me-nu ul {
+  list-style-type: none;
+  padding-left:2%;
+  padding-top: 1%;
+}
+
+.me-nu ul li {
+  margin-bottom: 10px;
+  padding-left:11%;
+  display: inline-block;
+  padding-top:2%;
+  font-size: 20px;
+}
+
+.me-nu ul li a {
+  color:goldenrod;
+  text-decoration: none;
+}
+.front-page{
+	width: 100%;
+	height:100vh;
+	background-image:url(turkey.jpg);
+	background-size: cover;
+	background-position: center;
+	animation: animated 20s infinite;
+}
+@keyframes animated{
+	0%, 100%{
+		background-image: url(turkey.jpg);
+	}
+	
+  50% {
+        background-image: url('london.jpg');
+        background-position: top;
+    }
+ 
+}
+.short-welcome{
+	width: 30%;
+	height: 72vh;
+	top:15%;
+	left: 60%;
+  background-color: rgba(10, 10, 10, 0.7);
+  border-radius: 25px;
+	position: absolute;
+	padding-top: 3%;
+	padding-left: 2%;
+	line-height:60px;
+	padding-right: 1%;
+	overflow: hidden;
+}
+.short-welcome::before{
+	content:"Spacecraft Voyage Agency";
+	font-size: 24px;
+	line-height: 50px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-style: !important;
+  
+}
+.short-welcome::after{
+	content:"Discover the universe with us. We help you travel to distant countries and help you get new jobs abroad. Our team makes sure your journey is smooth and unforgettable. Ready to start this amazing adventure?";
+	font-size: 23px;
+	font-family: calibri;
+	color: goldenrod;
+	font-weight: light;
+	letter-spacing: 3px;
+	font-style: normal;
+}
+.background-div::before{
+	background: rgba(0, 0, 0, 0.8);
+}
+.front-page-info{
+	top: 80%;
+}
+.front-page-info h4{
+	font-size: 30px;
+	line-height: 45px;
+}
+.front-page-info h5{
+	font-size: 25px;
+	padding-left: 10%;
+	line-height: 45px;
+}
+
+ .services hr{
+    width: 16%;
+    margin-left: 40%;
+    margin-top: 3%;
+ }
+ .services h2{
+ 	font-size: 50px;
+ 	padding-top: 2%;
+ 	padding-left:37%;
+ }
+ .images{
+ 	height: 205vh;
+ }
+ .horizontal-group-1{
+ 	display: block;
+  height: 80vh;
+ }
+ .horizontal-group-2{
+ 	display: block;
+  height: 80vh;
+ }
+ .img-des-1{
+ 	width: 40%;
+ 	height: 80vh;
+ 	float: left;
+  margin-left:5%;
+  margin-top: 5%;
+ }
+ .img-1{
+ 	height: 70vh;
+ }
+ .img-2{
+ 	height: 70vh;
+ }
+ .img-3{
+ 	height: 70vh;
+ }
+ .img-4{
+ 	height: 70vh;
+ }
+  .img-des-2{
+ 	width: 40%;
+ 	height: 80vh;
+ 	float: left;
+ 	margin-left: 5%;
+ 	margin-top: 5%;
+ }
+ .img-des-3{
+ 	width: 40%;
+ 	height: 80vh;
+ 	float: left;
+  margin-left: 5%;
+ }
+  .img-des-4{
+ 	width: 40%;
+ 	height: 80vh;
+ 	float: left;
+ 	margin-left: 5%;
+ }
+ .slider{
+ 	margin-top: 10%;
+ 	height: 190vh;
+ }
+
+ .horizontal-visa-1{
+ 	display: block;
+  height: 60vh;
+ }
+ .horizontal-visa-2{
+ 	display: block;
+  height: 60vh;
+ }
+ .visa-des-1{
+ 	width: 40%;
+ 	float: left;
+  margin-left:5%;
+  margin-top:5%;
+ }
+ .visa-1{
+ 	height: 50vh;
+ }
+ .visa-2{
+ 	height: 50vh;
+ }
+ .visa-3{
+ 	height: 50vh;
+ }
+ .visa-4{
+ 	height: 50vh;
+ }
+  .visa-des-2{
+ 	width: 40%;
+ 	float: left;
+ 	margin-left: 5%;
+ 	margin-top:5%;
+ }
+ .visa-des-3{
+ 	width: 40%;
+ 	float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+ }
+  .visa-des-4{
+ 	width: 40%;
+ 	float: left;
+ 	margin-left: 5%;
+ 	margin-top: 5%;
+ }
+ .foreground-content h2{
+ 	padding-top: 1%;
+ 	font-size: 50px;
+ }
+ .btn{
+	width:100%;
+	height: 20vh;
+	background-color: goldenrod;
+}
+.btn button{
+	margin-top: 3%;
+	margin-left: 45%;
+	padding: 3px 40px;
+	background-color: black;
+	color: goldenrod;
+	border-width: 2px;
+	border-color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+.choose{
+	height: 200vh;
+}
+.choose img{
+	width: 8%;
+	padding-left: 46%;
+}
+.choose h4{
+	font-size: 37px;
+	padding-left: 47%;
+}
+.choose h1{
+  font-size: 45px;
+  padding-left: 30%;
+}
+.choose p{
+	font-size: 30px;
+	letter-spacing: 5px;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.head-location hr{
+	width: 20%;
+	margin-left: 40%;
+}
+.head-location h2{
+	font-size: 45px;
+	padding-left: 44%;
+}
+.location{
+	height: 100vh;
+}
+.location h3{
+	padding-top: 12%;
+	font-size: 50px;
+	padding-left: 52%;
+}
+.location h4{
+	text-align: center;
+	font-size: 50px;
+}
+.location h6{
+	padding-left: 38%;
+	font-size: 25px;
+}
+.book button{
+	margin-top: 3%;
+	margin-left: 40%;
+}
+.bottom{
+	height: 100vh;
+}
+.logo-bottom img{
+	width: 45%;
+	padding-left: 50%;
+}
+.logo-info-bottom h4{
+	font-size: 30px;
+	padding-top: 4%;
+}
+.logo-info-bottom h5{
+	font-size:22px;
+}
+.bottom-services{
+	float: left;
+	padding-top: 5%;
+	width: 20%;
+	margin-left: 5%;
+}
+.bottom-countries{
+	float: left;
+	padding-top: 5%;
+	width: 20%;
+	margin-left: 5%;
+}
+.about{
+	float: left;
+	padding-top: 5%;
+  width: 20%;
+  margin-left: 5%;
+}
+.bottom-contact{
+	float: left;
+	padding-top: 5%;
+	width: 20%;
+	margin-left: 3%;
+}
+.visit p{
+	padding-top: 40%;
+}
+.bottom-services h3{
+  font-size: 26px;
+}
+.bottom-services ul li{
+	font-size: 22px;
+	line-height: 50px;
+}
+.bottom-countries h3{
+  font-size: 26px;
+}
+.bottom-countries ul li{
+	font-size: 22px;
+	line-height: 40px;
+}
+.about h3{
+  font-size: 26px;
+}
+.about ul li{
+	font-size: 22px;
+	line-height: 50px;
+}
+.bottom-contact h3{
+  font-size: 26px;
+}
+.bottom-contact ul li{
+	font-size: 22px;
+	line-height: 50px;
+}
+.visit p{
+	font-size: 35px;
+	line-height: 70px;
+	letter-spacing: 2px;
+}
+.about-us{
+	width: 100%;
+	height: 40vh;
+	margin-top:7%;
+}
+.about-us hr{
+  width:20%;
+	margin-top: 1%;
+	margin-left:37%;
+}
+.about-us h1{
+   font-size: 80px;
+    padding-left:33%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.image{
+	height: 70vh;
+}
+.image h3{
+  font-size: 45px;
+  padding-top: 31%;
+}
+.vision-about{
+	height: 150vh;
+	margin-top:0;
+	margin-bottom: 10%;
+}
+.vision-about img{
+      width: 10%;
+      padding-left: 45%;
+      padding-top:1%;
+}
+.vision-about h2{
+	font-size: 55px;
+	padding-left: 45%;
+	padding-top: 5%;
+	letter-spacing: 3px;
+}
+.vision-about p{
+	padding-left: 15%;
+	padding-right: 10%;
+	font-size: 28px;
+	color: #1a3a6e;
+	line-height: 55px;
+}
+.loc-below{
+	margin-left: 15%;
+	width: 35%;
+	height: 50vh;
+	float: left;
+}
+.loc-below h2{
+	padding-left: 25%;
+	padding-top: 5%;
+	font-size: 55px;
+}
+.loc-below p{
+	font-size: 35px;
+	line-height: 45px;
+	padding-right: 5%;
+}
+.conta-below{
+	width: 35%;
+	height: 50vh;
+	float: left;
+
+}
+.conta-below h2{
+  padding-left: 25%;
+	padding-top: 5%;
+	font-size: 55px;
+}
+.conta-below p{
+	font-size: 35px;
+	line-height: 49px;
+	padding-right: 5%;
+}
+.call-us{
+	width: 100%;
+	height: 30vh;
+	margin-top: 5%;
+}
+.call-us hr{
+	width:20%;
+	margin-top: 1%;
+	margin-left:39%;
+}
+.call-us h1{
+	  font-size: 80px;
+    padding-left:33%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.book-conta button{
+	margin-top:7%;
+ 	margin-left: 39%;
+ 	padding:17px 40px;
+ 	font-size: 25px;
+}
+.abt-1 h2{
+	font-size: 35px;
+	padding-left: 20%;
+}
+.conta-1 h2{
+	font-size: 35px;
+	padding-left: 20%;
+}
+.free-application{
+	width: 22%;
+	float: left;
+	margin-left: 2%;
+}
+.visa-application{
+	width: 22%;
+	float: left;
+	margin-left: 3%;
+}
+.flight-application{
+	width: 22%;
+	float: left;
+	margin-left: 3%;
+}
+.hotel-application{
+	width: 22%;
+	float: left;
+	margin-left: 3%;
+}
+.serv-window{
+	height: 180vh;
+}
+.serv-1 h2{
+	font-size: 35px;
+}
+.book-serv button{
+ 	margin-left: 40%;
+ 	padding:7px 40px;
+ 	color: black;
+ 	font-weight: bold;
+ 	font-size: 18px;
+ 	background-color: goldenrod;
+ 	border-radius: 12px;
+}
+}
